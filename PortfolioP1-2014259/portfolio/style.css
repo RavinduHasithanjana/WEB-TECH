@@ -1,0 +1,262 @@
+#header{                             /* This is AboutMe.html css part */
+        background: black;
+        color: #85adad;                 /* part 2  specific colorfont color is used */
+        text-align: center;          
+        padding: 30px;
+        
+    }
+#header h1{
+	
+	   font-family: "Times New Roman", Times, serif; /* part1 different font has been used */
+}
+ .nav{                                        /* common set for the navigation bar */
+
+        
+        background-image:url("wel.jpg");
+width:1323px;
+height:800px;
+margin-top:0px;
+}
+
+      
+
+      .nav ul{
+        margin: 0;
+        padding: 0;
+      }
+
+      .nav ul li{
+        list-style: none;
+      }
+
+      .nav ul li a{
+        text-decoration: inherit;
+        float: left;
+        display: block;
+        padding: 10px 20px;
+		font-size:20px;
+      }
+
+       .nav ul li a:hover{   /* 3b .hover,is a pseudo element hover which changes the color*/
+             color: white;
+       }
+
+       #detail{
+        background-color : black;     /* Background color used*/
+        color: #ffffe5;   /* part 2.color,  specific colorfont color is used */
+          padding: 5px;
+             text-align: center;
+                 width:300px;
+                height: 300px;
+
+
+                border-width:2px;     /* 3e.Border,the border size is specified here */
+                border-color:black;
+                border-style:solid;     /* 3e.Border,the border style is specified */
+               
+                margin:10px;    
+                box-shadow: 2px 2px grey;      /* part 2 . Shadow ,is used the color and parameters specified */
+}
+
+.Text1{
+    color:white;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 400px;
+}
+
+       .socialmedia{
+        background-color : white;
+        color: black;
+          padding: 5px;
+             text-align: center;
+                 width:300px;
+                height: 300px;
+
+
+                border-width:2px;  /* 3e.Border,the border size is specified here */
+                border-color:black;   /* 3e.Border,the border style is specified */
+                border-style:solid;
+                padding:2px;
+                margin:10px;    
+                box-shadow: 2px 2px blak;    
+}
+
+.coloet{
+ background-image:url("backhead.jpg");    /* image is being used*/
+
+}
+
+.twitterfeeds{
+	margin:10px;
+	margin-left:400px;
+	
+	
+	
+}
+
+.map{
+	
+	background-color:black;
+	color:white;
+}
+aside {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+a[target] {
+    background-color: yellow;  /* 3a .a[target]atribute selectors ,used to an link make it yellow*/
+}
+
+[class|=top] {                   /* 3a.[class|=top]atribute selectors, used to an heading make it red*/
+    background:red;
+}
+
+
+          #footer {                    /* a special color effect is being used */
+ background: -webkit-linear-gradient(left top, black , grey); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, black, grey); /* For Opera 11.1 to 12.0 */      /* 3f.Gradient,a specific color difference shown */
+    background: -moz-linear-gradient(bottom right, black, grey); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, black , grey); /* Standard syntax (must be last) */
+color:white;
+padding:5px;
+text-align:center;
+
+}
+
+
+/*  the next css style sheet   */
+
+.Menav{                                     /*  Me.html starts  */
+
+        height: 40px;
+        background:   #3399FF;
+
+      }
+
+      .Menav{
+        margin: 0;
+        padding: 0;                   /* specified navigation bar made*/
+      }
+
+      .Menav ul li{
+        list-style: none;
+      }
+
+      .Menav ul li a{
+        text-decoration: inherit;
+        float: left;
+        display: block;
+        padding: 10px 20px;
+      }
+
+       .Menav ul li a:hover{
+             color: white;
+       }
+
+      
+
+ #profilepic{
+        background-image:url("ravindu.jpg");   /* image being used */
+        color: white;
+          padding: 5px;
+             text-align: center;
+                 width:400px;
+                height: 300px;
+                border-width:2px;
+                border-color:black;
+                border-style:solid;
+                padding:2px;
+                margin:10px;
+                margin-left: 300px;   
+                box-shadow: 2px 2px grey;    
+}
+
+
+
+/*  the next css style sheet  blogs.html */
+
+ .navmain{
+
+        height: 40px;
+       background-image:url("city2.jpg");
+      width:1332px;
+	  height:600px;
+      }
+
+      .navmain ul{
+        margin: 0;
+        padding: 0;
+      }
+
+      .navmain ul li{
+        list-style: none;
+		font-size:20px;                                /* specified navigation bar made*/
+      }
+
+      .navmain ul li a{
+        text-decoration: none;
+        float: left;
+        display: block;
+        padding: 10px 20px;
+      }
+
+       .navmain ul li a:hover{
+             color: white;
+       }
+	   #blog{
+	   border: 2px solid #a1a1a1;
+	   width:1000px;
+	   height:650px;
+	   margin-top: 100px;           
+       margin-left: 150px;                         /* blog is made here*/
+	   border-radius:10px;
+	   background-color:transparent;
+	   color:white;
+	   padding:2px;
+	   font-size:25px;
+
+	   }
+	 #blog p:nth-child(2) {   /* 3d.negation pseudo, the second child colored*/
+    background: #ff0000;
+}
+	   #blog p{
+	    font-family: Arial, Helvetica, sans-serif; /* part1 different font has been used */
+	   }
+	   #picture{
+	   margin:100px;
+	   	   }
+		   .message{
+		   color:red;
+		   }
+.java{
+	background: -webkit-linear-gradient(left top, black , grey); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, black, grey); /* For Opera 11.1 to 12.0 */                        /* 3f.Gradient,a specific color difference shown */
+    background: -moz-linear-gradient(bottom right, black, grey); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, black , grey); /* Standard syntax (must be last) */;
+}
+
+
+/* this is the contact us page*/
+
+#cf6_image {
+  margin:0 auto;
+  width:1259px;
+  height:900px;
+  transition: background-image 1s ease-in-out;   /* 3g.animation,this is a animation made for pictures to chande when mouse taken over */
+  background-image:url("C.png");
+}
+
+#cf6_image:hover {
+  background-image:url("po.png");
+  
+}
+
+#form{
+	margin-left:100px;
+	
+	
+}
+
